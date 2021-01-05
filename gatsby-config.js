@@ -5,6 +5,20 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Milena Martinez",
+    author: "Milena Martinez ♥",
+  },
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-sass", 
+    "gatsby-transformer-remark",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+  ],
 }
