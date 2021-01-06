@@ -21,7 +21,8 @@ return (
   <Layout >
   <div className={homeStyles.welcomeContainer}>
   <div className={homeStyles.description}>
-  <h1 className={homeStyles.nameFont}>Milena Martinez</h1>
+  <h1 className={homeStyles.nameFont}>Milena</h1>
+  <h1 className={homeStyles.nameFont}>Martinez</h1>
   <h2>Web Developer</h2>
   </div>
   <div className={homeStyles.imageHomepage}>

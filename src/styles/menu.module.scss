@@ -14,7 +14,7 @@
     opacity: 0;
     font-size: 1.2rem;
     transition: all 0.35s;
-    cursor: pointer;
+    
   
     &.open {
       visibility: visible;
@@ -27,16 +27,17 @@
     }
 
     a:hover{
+        cursor: pointer;
         transform: scale(1.5);
         text-decoration:underline #F46740;
     }
   }
   @media (min-width: 1024px) {
- //   .menu {
- //       &.open {
- //           visibility:hidden;
- //       }
- //       
- //   }
+   .menu {
+       &.open {
+           visibility:hidden;
+       }
+       
+   }
   
   }

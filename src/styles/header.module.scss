@@ -44,8 +44,9 @@
   background: transparent;
   border: none;
   cursor: pointer;
+  outline:none;
   z-index: 5;
-  //visibility: hidden;
+  visibility: hidden;
 
   div {
     width: 1.5rem;
@@ -58,10 +59,10 @@
 }
 
 @media (max-width: 1024px) {
-  //  .button-menu {
-  //      visibility: visible;
-  //  }
-  // .nav-list {
-  //     visibility: hidden;
-  // }
+   .button-menu {
+       visibility: visible;
+   }
+  .nav-list {
+      visibility: hidden;
+  }
 }
