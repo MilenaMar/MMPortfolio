@@ -21,8 +21,8 @@ const ProjectsPage = () => {
       }
   placeholderImage: file(relativePath: { eq: "portfolio.png" }) {
      childImageSharp {
-       fixed {
-         ...GatsbyImageSharpFixed
+      fluid {
+         ...GatsbyImageSharpFluid_tracedSVG
        }
      }
    }
@@ -31,8 +31,8 @@ const ProjectsPage = () => {
   return (
     <Layout>
     <Img
-        fixed={data.placeholderImage.childImageSharp.fixed}
-        alt="Gatsby Docs are awesome"
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        alt="lady projects"
        style={{display:"block", margin:"0 auto"}}/>
       <h1>My Post</h1>
       <ol>

@@ -1,13 +1,36 @@
 import React from "react"
-import {Link} from 'gatsby'
+import {Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
-import HomeImg from "../../static/homepage.png"
+import Img from "gatsby-image"
+import homeStyles from "../styles/index.module.scss"
+
+
 const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+  placeholderImage: file(relativePath: { eq: "homepage.png" }) {
+     childImageSharp {
+      fluid  {
+         ...GatsbyImageSharpFluid_tracedSVG
+       }
+     }
+   }
+  }
+  `)
 return (
-  <Layout>
-      <h1>This is a Home page</h1>
-      <img src={HomeImg} alt="imagen-logo" style={{width:"300px"}}></img>
-      <h2>Hi I am Milena Martinez a Full-stack developer</h2>
+  <Layout >
+  <div className={homeStyles.welcomeContainer}>
+  <div className={homeStyles.description}>
+  <h1 className={homeStyles.nameFont}>Milena Martinez</h1>
+  <h2>Web Developer</h2>
+  </div>
+  <div className={homeStyles.imageHomepage}>
+  <Img
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        alt="lady coder"
+       /> 
+  </div>    
+  </div>
       <Link to="/about">About me</Link>
       <p>Need a developer? <Link to="/contact">Contact Me</Link></p>
   </Layout>
