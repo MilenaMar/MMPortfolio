@@ -2,10 +2,23 @@ import { Link } from "gatsby"
 import React from "react"
 import headerStyles from "../styles/header.module.scss"
 import Logo from "../../static/black-logo.png"
+import Menu from "./menu.js"
 
-const Header = () => {
+class Header extends React.Component {
+  toggleMenu() {
+    this.childMenu.open()
+  }
+  render (){
   return (
     <header className={headerStyles.header}>
+     <>
+        <button onClick={() => this.toggleMenu()} className={headerStyles.buttonMenu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+        <Menu ref={el => (this.childMenu = el)} />
+      </>
       <Link to="/" className={headerStyles.name}>
        <img src={Logo} alt="web-site logo" style={{width:"70px"}}></img> 
       </Link>
@@ -44,13 +57,14 @@ const Header = () => {
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
             >
-              Contact Me
+              Contact
             </Link>
           </li>
         </ul>
       </nav>
     </header>
   )
+  }
 }
 
 export default Header
