@@ -1,0 +1,20 @@
+.skills-Section{
+    margin-top: 200px;
+    padding-top: 20px;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    li{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 1rem;
+    }
+    
+}

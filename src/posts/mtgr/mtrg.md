@@ -1,14 +1,12 @@
 ---
-title: 'The path to learn Gastby '
-date: '04-01-2020'
+title: 'Magic The Real Gathering'
+date: '18-12-2020'
 ---
+# MagicTG Events
 
-I am learning gatsby during the lockdown 
-in ireland!
+## Description
 
-## topic Covered 
+Web Application that allows the organizers of Magic the Gathering events to post tournaments and players can
+confirm their participation on these events and participe in a share their comments with another players attending the same event.  
 
-1.Gatsby
-2.GraphQL
-3.React
-4.Styled Components
+Aplication build using Express, Mongoose, MongoDB, MongoDB Atlas, React and Rest APi's

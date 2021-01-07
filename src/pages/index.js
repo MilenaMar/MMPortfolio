@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import homeStyles from "../styles/index.module.scss"
 import Metadata from "../components/metadata"
+import Skills from "../components/skills"
 
 
 const IndexPage = () => {
@@ -25,12 +26,15 @@ return (
   <div className={homeStyles.description}>
   <h2 className={homeStyles.nameFont}>Milena</h2>
   <h2 className={homeStyles.nameFont}>Martinez</h2>
-  <h2>Web Developer</h2>
+  <h3>Web Developer, coffe and dog lover. <br/>
+   always amazed to see how technology can impact people’s life. 
+</h3>
   </div>
   <div className={homeStyles.imageHomepage}>
   <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="lady coder" /> 
   </div>    
   </div>
+    <Skills />
       <Link to="/about">About me</Link>
       <p>Need a developer? <Link to="/contact">Contact Me</Link></p>
   </Layout>
