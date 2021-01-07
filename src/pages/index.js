@@ -3,6 +3,7 @@ import {Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import homeStyles from "../styles/index.module.scss"
+import Metadata from "../components/metadata"
 
 
 const IndexPage = () => {
@@ -19,6 +20,7 @@ const IndexPage = () => {
   `)
 return (
   <Layout >
+  <Metadata title="Home" description="Web Developer Milena Martinez " />
   <div className={homeStyles.welcomeContainer}>
   <div className={homeStyles.description}>
   <h1 className={homeStyles.nameFont}>Milena</h1>

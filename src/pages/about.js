@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import AboutImage from "../../static/about.png"
+import Metadata from "../components/metadata"
 
 const AboutPage = () => {
   return (
     <Layout>
+    <Metadata title="About" description="A website about who I am"/>
     <img src={AboutImage} alt="about-illustration" style={{width:"300px"}}></img>
       <h1>This a Page about me</h1>
       <p>

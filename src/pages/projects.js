@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import Metadata from "../components/metadata"
 
 const ProjectsPage = () => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,7 @@ const ProjectsPage = () => {
   `)
   return (
     <Layout>
+    <Metadata title="Projects" description="Page with all the projects I worked on"/>
     <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
         alt="lady projects"
