@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
+
 .welcome-container > * {
     flex-grow: 1;
   }
@@ -13,24 +15,24 @@
 .description{
     max-width: 500px;
 }
-.description h1{
+.description h2{
     white-space: nowrap;
-   overflow: hidden;
+    overflow: hidden;
 }
-.name-font {
+.name-font  {
+    font-family: 'Headland One', serif;
     font-size:5rem;
-
 }
 
-.description h1:nth-child(1) {
-    width: 7.3em;
+.description h2:nth-child(1) {
+    width: 5em;
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  .description h1:nth-child(2) {
-    width: 11.5em;
+  .description h2:nth-child(2) {
+    width: 5em;
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
     animation: type2 2s steps(40, end);
@@ -106,5 +108,22 @@
     .image-homepage{
         max-width: 450px;
       }
+    
+  }
+  @media (min-width: 512px) and (max-width: 720px) {
+  .image-homepage{
+    visibility: hidden;
+  }
+    
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .name-font  {
+      font-size:3.5rem;
+  }
+  
+  .image-homepage{
+    visibility: hidden;
+  }
     
   }

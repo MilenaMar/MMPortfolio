@@ -23,15 +23,12 @@ return (
   <Metadata title="Home" description="Web Developer Milena Martinez " />
   <div className={homeStyles.welcomeContainer}>
   <div className={homeStyles.description}>
-  <h1 className={homeStyles.nameFont}>Milena</h1>
-  <h1 className={homeStyles.nameFont}>Martinez</h1>
+  <h2 className={homeStyles.nameFont}>Milena</h2>
+  <h2 className={homeStyles.nameFont}>Martinez</h2>
   <h2>Web Developer</h2>
   </div>
   <div className={homeStyles.imageHomepage}>
-  <Img
-        fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="lady coder"
-       /> 
+  <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="lady coder" /> 
   </div>    
   </div>
       <Link to="/about">About me</Link>

@@ -11,6 +11,9 @@ class Header extends React.Component {
   render (){
   return (
     <header className={headerStyles.header}>
+    <Link to="/" className={headerStyles.personalLogo}>
+       <img src={Logo} alt="web-site logo" className={headerStyles.logo}/>
+      </Link>
      <>
         <button onClick={() => this.toggleMenu()} className={headerStyles.buttonMenu} aria-label="movile menu">
           <div></div>
@@ -18,10 +21,7 @@ class Header extends React.Component {
           <div></div>
         </button>
         <Menu ref={el => (this.childMenu = el)} />
-      </>
-      <Link to="/" className={headerStyles.name}>
-       <img src={Logo} alt="web-site logo" style={{width:"70px"}}></img> 
-      </Link>
+      </>  
       <nav>
         <ul className={headerStyles.navList}>
           <li>
