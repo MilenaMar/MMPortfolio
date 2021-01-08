@@ -1,5 +1,5 @@
 .header {
-  padding: 1rem 0 3rem;
+  padding: 1rem 0 1rem;
   display: flex;
   justify-content: space-between;
   overflow-x: hidden;
@@ -30,7 +30,7 @@
 .button-menu {
   position: fixed;
   top: 2rem;
-  right: 2rem;
+  right: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -63,7 +63,7 @@
 @media (max-width: 1024px) {
     
   .header {
-    padding: 0rem 0 3rem;
+    padding: 0rem 0 5rem;
     min-width: auto;
     
   }
@@ -73,8 +73,9 @@
    }
   .nav-list {
       visibility: hidden;
-      max-width: 10px;
   }
+
+  
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

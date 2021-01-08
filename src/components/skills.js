@@ -5,11 +5,9 @@ import javaSIcon from "../../static/skillsIcons/javascript.png"
 import apiIcon from "../../static/skillsIcons/api.png"
 import bootstrapIcon from "../../static/skillsIcons/bootstrap.png"
 import cssIcon from "../../static/skillsIcons/CSS.png"
-import gitIcon from "../../static/skillsIcons/git.png"
 import graphqlIcon from "../../static/skillsIcons/graphql.png"
 import htmlIcon from "../../static/skillsIcons/html.png"
 import mongoIcon from "../../static/skillsIcons/mongo.png"
-import npmIcon from "../../static/skillsIcons/npm.png"
 import reactIcon from "../../static/skillsIcons/react.png"
 import nodeIcon from "../../static/skillsIcons/nodejs.png"
 import gatsbyIcon from "../../static/skillsIcons/gatsby.png"
@@ -68,12 +66,6 @@ const Skills = () => {
         <li>
           Rest APi
           <img src={apiIcon} alt="skill icon" />
-        </li>
-        <li>
-          NPM <img src={npmIcon} alt="skill icon" />
-        </li>
-        <li>
-          GitHub <img src={gitIcon} alt="skill icon" />
         </li>
       </ul>
           </div>
