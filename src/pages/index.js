@@ -8,6 +8,7 @@ import Skills from "../components/skills"
 import AboutMe from "../components/about"
 
 
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -29,7 +30,7 @@ return (
   <h2 className={homeStyles.nameFont}>Martinez</h2>
   <p className={homeStyles.aboutMeFont}>Full-Stack Developer. <br/>Always amazed to see how technology can impact people’s life.
 </p>
-<button><Link to="/contact">Work together</Link></button>
+<button><Link to="/contact">Work together</Link></button> 
   </div>
   <div className={homeStyles.imageHomepage}>
   <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="lady coder" /> 

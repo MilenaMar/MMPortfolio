@@ -1,7 +1,18 @@
 .about-section{
-    margin-top: 200px;
+    margin-top: 10px;
     padding-top: 20px;
     min-height: 100vh;
-    background-color: #ffffff;
+    
+ div {
+    border-radius: 1em;
+    background-color: coral;
+    min-height: 80%;
+ }
+
+ img{
+    width: 50px;
+ }
+    
 }
+
 

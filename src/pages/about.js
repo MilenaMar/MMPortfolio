@@ -12,8 +12,11 @@ const AboutPage = () => {
       <h1>This a Page about me</h1>
       <p>
         I am a Colombian living in ireland for the last 5 years.
+        Dog and coffe lover
         <br />
         passionate about technology and always developing my skills
+        I love to keep learning, challenging myself 
+
       </p>
       <p>
         Lets Work together <Link to="/contact">Contact Me</Link>
