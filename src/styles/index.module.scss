@@ -5,7 +5,6 @@
   }
 .welcome-container {
     display: flex;
-    margin-top: 40px;
     justify-content: space-around;
     min-height: 100vh;
 
@@ -28,7 +27,7 @@
    left: 0;
    right: 0;
    bottom: 0;
-   background: #CC7462;
+   background: rgba(242, 102, 63, 0.7);
    border-radius: inherit;
   transform: translate3d(0, 0.65em, -1em);
   transition: all 175ms cubic-bezier(0, 0, 1, 1);
@@ -61,13 +60,13 @@
     }
 
 }
-
-
 .image-homepage{
   max-width: 400px;
+  max-height: 552px
 }
 .description{
     max-width: 500px;
+    max-height: 500px;
 }
 .description h2{
     white-space: nowrap;

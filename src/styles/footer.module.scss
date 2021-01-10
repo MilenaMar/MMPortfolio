@@ -1,0 +1,41 @@
+.social-menu {
+   
+   display: flex; 
+   justify-content: center;
+   background-image: url(../../static/wave.svg);
+   background-size:  100%;
+   background-repeat:no-repeat;
+   background-color:rgba(242, 102, 63, 0.1);
+   padding:2rem;
+
+    ul{
+       display: flex;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    li{
+       padding-left: 1rem;
+    }
+    img {
+       width: 30px;
+    }
+
+    a{
+       text-decoration: none;
+       color: black;
+    }
+
+    a:hover{
+       cursor: pointer;
+    }
+}
+
+@media (max-width: 680px) {
+   .social-menu {
+      flex-direction: column;
+      background-size:  100% 100%;
+      padding:0.5rem;
+   }  
+   }
+

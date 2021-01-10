@@ -4,8 +4,6 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import homeStyles from "../styles/index.module.scss"
 import Metadata from "../components/metadata"
-import Skills from "../components/skills"
-import AboutMe from "../components/about"
 
 
 
@@ -34,11 +32,8 @@ return (
   </div>
   <div className={homeStyles.imageHomepage}>
   <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="lady coder" /> 
-  </div>    
+  </div>   
   </div>
-  <AboutMe/>
-    <Skills />
-      <p>Need a developer? <Link to="/contact">Contact Me</Link></p>
   </Layout>
 )
 }
