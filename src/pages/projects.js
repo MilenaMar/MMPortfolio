@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql, Link, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
+//import Img from "gatsby-image"
 import Metadata from "../components/metadata"
 
 const ProjectsPage = () => {
@@ -29,14 +29,15 @@ const ProjectsPage = () => {
    }
     }
   `)
+
+ // <Img
+ // fluid={data.placeholderImage.childImageSharp.fluid}
+ // alt="lady projects"
+ //style={{display:"block", margin:"0 auto"}}/>
   return (
     <Layout>
     <Metadata title="Projects" description="Page with all the projects I worked on"/>
-    <Img
-        fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="lady projects"
-       style={{display:"block", margin:"0 auto"}}/>
-      <h1>My Post</h1>
+      <h1>My Latest Projects</h1>
       <ol>
         {data.allMarkdownRemark.edges.map(e => (
           <li key={e.node.fields.slug}>

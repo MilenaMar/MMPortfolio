@@ -1,4 +1,9 @@
-
+.skills-section {
+        background-color: rgba(242, 102, 63, 0.5);
+        border: 2px solid #eee;
+       border-radius: 20px;
+       box-shadow: 2px 2px 10px 0 #eee;
+}
     .skill-header {
         display: flex;
         align-items: center;
@@ -6,12 +11,10 @@
             width: 50px;
         }
     }
-
-
 .skills-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
     li{
         display: flex;

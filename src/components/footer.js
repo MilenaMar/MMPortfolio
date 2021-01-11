@@ -3,7 +3,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import LinkedIn from "../../static/Linked.png"
 import Github from "../../static/github.png"
 import footerStyles from "../styles/footer.module.scss"
-
+import resume from "../../static/resume.png"
+import myCv from "../../static/Milena Martinez CV.pdf"
 const Footer = () => {
     const data = useStaticQuery (graphql`
     query {
@@ -29,6 +30,11 @@ const Footer = () => {
                  target="_blank" rel="noreferrer">
                   <img src={Github} alt ="Github icon"/>
                   </a>
+            </li>
+            <li>
+               <a href={myCv} download>
+                  <img src={resume} alt ="download resume"/>
+                  </a> 
             </li>
         </ul>
         </footer>

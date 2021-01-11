@@ -113,6 +113,10 @@
     
   }
   @media (min-width: 512px) and (max-width: 720px) {
+
+    .welcome-container{
+      margin-top: 80px;
+    }
   .image-homepage{
     visibility: hidden;
     width: 1px;
@@ -120,7 +124,9 @@
     
   }
   @media (min-width: 320px) and (max-width: 480px) {
-  
+    .welcome-container{
+      margin-top: 80px;
+    }
     .name-font  {
       font-size:3.5rem;
   }

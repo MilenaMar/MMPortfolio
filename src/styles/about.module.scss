@@ -1,14 +1,25 @@
 
 .about-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+   
     
     .first-section {
-        background-color: black;
+        padding: 2rem; 
     }
 
     .second-section{
-        background-color: blue;
+        padding: 1rem;
+        max-width: 600px;
+        text-align: justify;
+        border: 2px solid #eee;
+        border-radius: 20px;
+
+        a{
+            color:inherit;
+            text-decoration: underline #f46740
+        }
+       
     }
     .my-profile-picture{
         min-width: 300px;
