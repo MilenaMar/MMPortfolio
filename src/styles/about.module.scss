@@ -1,0 +1,36 @@
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    
+    .first-section {
+        background-color: black;
+    }
+
+    .second-section{
+        background-color: blue;
+    }
+    .my-profile-picture{
+        min-width: 300px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 828px) {
+    .about-section{
+        flex-direction: column;
+    }
+
+  }
+  @media (max-width: 450px) {
+
+    .about-section{
+        .my-profile-picture {
+            min-width: 150px;
+            max-width: 200px;
+        }
+
+    }
+    
+
+  }

@@ -1,20 +1,36 @@
-.skills-Section{
-    margin-top: 200px;
-    padding-top: 20px;
-    min-height: 100vh;
-    background-color: #ffffff;
-}
+
+    .skill-header {
+        display: flex;
+        align-items: center;
+        img{
+            width: 50px;
+        }
+    }
+
 
 .skills-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     li{
         display: flex;
         flex-direction: column;
-        list-style: none;
-        padding: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;    
+        padding: 0 1rem;
+    }
+    img {
+        max-width: 50px;
     }
     
 }
+
+@media (min-width: 1330px) {
+
+   // .skills-list{
+    //    justify-content: space-around;
+   // }
+
+  }

@@ -2,7 +2,6 @@ import React from "react"
 import skillsStyles from "../styles/skills.module.scss"
 import code from "../../static/skillsIcons/Skills.png"
 import javaSIcon from "../../static/skillsIcons/javascript.png"
-import apiIcon from "../../static/skillsIcons/api.png"
 import bootstrapIcon from "../../static/skillsIcons/bootstrap.png"
 import cssIcon from "../../static/skillsIcons/CSS.png"
 import graphqlIcon from "../../static/skillsIcons/graphql.png"
@@ -16,9 +15,9 @@ import sassIcon from "../../static/skillsIcons/sass.png"
 const Skills = () => {
   return (
     <div className={skillsStyles.skillsSection}>
-      <img src={code} alt="code logo" />
-      <h2>Skills</h2>
-      <h3>Front-End</h3>
+    <div  className={skillsStyles.skillHeader}><img src={code} alt="code logo" />
+      <h2>Skills</h2></div>
+      <div>
       <ul className={skillsStyles.skillsList}>
         <li>
           Javascript <img src={javaSIcon} alt="skill icon" />
@@ -50,9 +49,6 @@ const Skills = () => {
           <img src={bootstrapIcon} alt="skill icon" />
         </li>
        
-      </ul>
-      <h3>Back-end</h3>
-      <ul className={skillsStyles.skillsList}>
       <li>
           ExpressJs <img src={nodeIcon} alt="skill icon" />{" "}
         </li>
@@ -63,11 +59,8 @@ const Skills = () => {
           {" "}
           MongoDB <img src={mongoIcon} alt="skill icon" />{" "}
         </li>
-        <li>
-          Rest APi
-          <img src={apiIcon} alt="skill icon" />
-        </li>
-      </ul>
+        </ul>
+      </div>
           </div>
   )
 }
