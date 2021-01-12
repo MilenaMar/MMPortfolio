@@ -61,7 +61,7 @@ class Header extends React.Component {
             </Link>
           </li>
           <li>
-            <a href="https://milenamar.github.io/resume/" 
+            <a href="https://milenamar.github.io/resume/Milena%20Martinez%20CV.pdf" 
             target="_blank" rel="noreferrer" 
             className={headerStyles.navItem}
               >Resume</a>

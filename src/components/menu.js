@@ -30,7 +30,7 @@ class Menu extends React.Component {
         <Link to="/about">About Me</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
-        <a href="https://milenamar.github.io/resume/" 
+        <a href="https://milenamar.github.io/resume/Milena%20Martinez%20CV.pdf" 
             target="_blank" rel="noreferrer" >Resume</a>
       </div>
     )
