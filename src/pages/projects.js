@@ -1,6 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql, Link, useStaticQuery } from "gatsby"
+import projectImg from "../../static/holder.png"
+import projectsStyles from "../styles/projects.module.scss"
+
 //import Img from "gatsby-image"
 import Metadata from "../components/metadata"
 
@@ -11,8 +14,12 @@ const ProjectsPage = () => {
         edges {
           node {
             frontmatter {
+              description
               title
-              date
+              deployment
+              source
+              sourceServer
+              tech
             }
             fields {
               slug
@@ -38,16 +45,25 @@ const ProjectsPage = () => {
     <Layout>
     <Metadata title="Projects" description="Page with all the projects I worked on"/>
       <h1>My Latest Projects</h1>
-      <ol>
+      <div className={projectsStyles.container}>
         {data.allMarkdownRemark.edges.map(e => (
-          <li key={e.node.fields.slug}>
-            <Link to={`/blog/${e.node.fields.slug}`}>
+        <div className={projectsStyles.card} key={e.node.fields.slug}>
+        <header className={projectsStyles.container}>
+             <Link to={`/blog/${e.node.fields.slug}`}>
               <h2>{e.node.frontmatter.title}</h2>
             </Link>
-            <p>{e.node.frontmatter.date}</p>
-          </li>
+        </header>
+        <img src={projectImg} alt="Hot air balloons"/>
+        <div className={projectsStyles.body}>
+          <p>{e.node.frontmatter.description}</p>
+          <p>{e.node.frontmatter.tech}</p>
+        </div>
+        <footer><a href={e.node.frontmatter.source} target="_blank"
+          rel="noreferrer">Source Code</a> <a href={e.node.frontmatter.deployment} target="_blank"
+          rel="noreferrer">deployment</a></footer>
+    </div>
         ))}
-      </ol>
+      </div>
     </Layout>
   )
 }
