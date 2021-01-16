@@ -618,6 +618,27 @@ html {
   pre tt:after {
     content: "";
   }
+
+    /* width */
+    html ::-webkit-scrollbar {
+      width: 10px;
+      border-radius: 5px;
+    }
+    /* Track */
+    html ::-webkit-scrollbar-track {
+      box-shadow: inset 1 0 5px #040405; 
+      border-radius: 10px; 
+    }
+    /* Handle */
+    html ::-webkit-scrollbar-thumb {
+      background:rgba(245, 103, 64, 0.5); 
+      border-radius: 10px;
+    }
+    /* Handle on hover */
+    html ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;

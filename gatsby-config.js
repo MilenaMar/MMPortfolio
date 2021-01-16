@@ -61,6 +61,6 @@ module.exports = {
     },
     "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-transition-link",
+    "gatsby-plugin-layout",
   ],
 }

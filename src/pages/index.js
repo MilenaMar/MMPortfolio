@@ -1,6 +1,5 @@
 import React from "react"
 import {Link, graphql, useStaticQuery } from 'gatsby'
-import Layout from "../components/layout"
 import Img from "gatsby-image"
 import homeStyles from "../styles/index.module.scss"
 import Metadata from "../components/metadata"
@@ -20,7 +19,7 @@ const IndexPage = () => {
   }
   `)
 return (
-  <Layout >
+ <div>
   <Metadata title="Home" description="Web Developer Milena Martinez " />
   <div className={homeStyles.welcomeContainer}>
   <div className={homeStyles.description}>
@@ -34,7 +33,8 @@ return (
   <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="lady coder" /> 
   </div>   
   </div>
-  </Layout>
+  </div>
+
 )
 }
 

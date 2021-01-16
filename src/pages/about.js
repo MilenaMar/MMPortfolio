@@ -1,8 +1,6 @@
 import React from "react"
-import { Link,graphql, useStaticQuery } from "gatsby"
-//import {TransitionLink, Link} from 'gatsby-plugin-transition-link'
+import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import Layout from "../components/layout"
 import Metadata from "../components/metadata"
 import Skills from "../components/skills"
 import aboutStyles from "../styles/about.module.scss"
@@ -22,7 +20,7 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
 `)
 
   return (
-    <Layout>
+    <div>
     <Metadata title="About" description="A website about who I am"/>
     <div className={aboutStyles.aboutSection}>
     <div className={aboutStyles.firstSection}>
@@ -46,8 +44,8 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
       </div> 
       
       </div>  
-        
-    </Layout>
+      </div>
+    
   )
 }
 
