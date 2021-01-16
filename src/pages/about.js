@@ -1,5 +1,6 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link,graphql, useStaticQuery } from "gatsby"
+//import {TransitionLink, Link} from 'gatsby-plugin-transition-link'
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Metadata from "../components/metadata"

@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import projectImg from "../../static/holder.png"
+import deploymentIcon from "../../static/deploy.png"
+import sourceIcon from "../../static/github.png"
 import projectsStyles from "../styles/projects.module.scss"
 
 //import Img from "gatsby-image"
@@ -48,19 +50,21 @@ const ProjectsPage = () => {
       <div className={projectsStyles.container}>
         {data.allMarkdownRemark.edges.map(e => (
         <div className={projectsStyles.card} key={e.node.fields.slug}>
-        <header className={projectsStyles.container}>
+        <header>
              <Link to={`/blog/${e.node.fields.slug}`}>
               <h2>{e.node.frontmatter.title}</h2>
             </Link>
         </header>
-        <img src={projectImg} alt="Hot air balloons"/>
+        <div className={projectsStyles.projectContainer}><img src={projectImg} className={projectsStyles.project}alt="Hot air balloons"/></div>
         <div className={projectsStyles.body}>
-          <p>{e.node.frontmatter.description}</p>
-          <p>{e.node.frontmatter.tech}</p>
-        </div>
-        <footer><a href={e.node.frontmatter.source} target="_blank"
-          rel="noreferrer">Source Code</a> <a href={e.node.frontmatter.deployment} target="_blank"
-          rel="noreferrer">deployment</a></footer>
+          <h5>{e.node.frontmatter.description}</h5>
+          <div>
+          <p>{e.node.frontmatter.tech}.</p>
+        <a href={e.node.frontmatter.source} target="_blank"
+          rel="noreferrer"><img src={sourceIcon} alt="github"></img></a> <a href={e.node.frontmatter.deployment} target="_blank"
+          rel="noreferrer"><img src={deploymentIcon} alt="deploy page"></img></a>
+          </div>
+          </div>
     </div>
         ))}
       </div>
