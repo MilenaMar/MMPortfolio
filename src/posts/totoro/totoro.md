@@ -4,9 +4,9 @@ description: 'Game Builded with P5 - Front-End application'
 deployment: 'https://milenamar.github.io/Totoro/'
 source: 'https://github.com/MilenaMar/Totoro'
 tech: 'Javascript, P5.js, HTML, CSS'
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610902288/game-min_jf5tmh.gif"
 ---
 
-![blog](./totoro.gif)
 
 Game developed during the third week of the Ironhack Bootcamp for Web Development.
 

@@ -6,9 +6,9 @@
   }
 .welcome-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
-    min-height: 100vh;
+    min-height: 60vh;
 
     h1{
       font-family: 'Headland One', serif;
@@ -96,7 +96,9 @@
   }
   @media (min-width: 320px) and (max-width: 480px) {
     .welcome-container{
-      margin-top: 80px;
+      //margin-top: 80px;
+      align-items: center;
+     max-height: 30vh;
     }
     .name-font  {
       font-size:3.5rem;

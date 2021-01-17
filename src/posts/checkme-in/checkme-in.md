@@ -4,9 +4,9 @@ description: "Travel Blog - Full-Stack web application"
 deployment: "https://check-me-in.herokuapp.com/"
 source: "https://github.com/MilenaMar/Check-Me-In"
 tech: "Javascript, NodeJs, HBS, ExpressJS, MongoDB, CSS"
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610888427/CMIN_bzgtg2.gif"
 ---
 
-![blog](./checkmein.png)
 
 Full stack JavaScript application built using Express, Mongoose, MongoDB and Handlebars, MongoDB Atlas and the
 SaaS technology, Cloudinary.

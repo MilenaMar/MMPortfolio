@@ -6,7 +6,6 @@ import "../styles/index.scss"
 import layoutStyles from "../styles/layout.module.scss"
 
 const Layout = props => {
-  console.log(props)
   return (
     <div>
     <div className={layoutStyles.container}>

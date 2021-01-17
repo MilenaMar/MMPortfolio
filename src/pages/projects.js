@@ -1,11 +1,8 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import projectImg from "../../static/holder.png"
 import deploymentIcon from "../../static/deploy.png"
 import sourceIcon from "../../static/github.png"
 import projectsStyles from "../styles/projects.module.scss"
-
-//import Img from "gatsby-image"
 import Metadata from "../components/metadata"
 
 const ProjectsPage = () => {
@@ -19,8 +16,8 @@ const ProjectsPage = () => {
               title
               deployment
               source
-              sourceServer
               tech
+              image
             }
             fields {
               slug
@@ -37,7 +34,6 @@ const ProjectsPage = () => {
    }
     }
   `)
-
  // <Img
  // fluid={data.placeholderImage.childImageSharp.fluid}
  // alt="lady projects"
@@ -49,19 +45,20 @@ const ProjectsPage = () => {
       <div className={projectsStyles.container}>
         {data.allMarkdownRemark.edges.map(e => (
         <div className={projectsStyles.card} key={e.node.fields.slug}>
-        <header>
               <h2>{e.node.frontmatter.title}</h2>
-        </header>
-        <div className={projectsStyles.projectContainer}><img src={projectImg} className={projectsStyles.project}alt="Hot air balloons"/></div>
         <div className={projectsStyles.body}>
           <h5>{e.node.frontmatter.description}</h5>
           <div>
           <p>{e.node.frontmatter.tech}.</p>
         <a href={e.node.frontmatter.source} target="_blank"
-          rel="noreferrer"><img src={sourceIcon} alt="github"></img></a> <a href={e.node.frontmatter.deployment} target="_blank"
+          rel="noreferrer"><img src={sourceIcon} alt="github"></img></a> 
+          <a href={e.node.frontmatter.deployment} target="_blank"
           rel="noreferrer"><img src={deploymentIcon} alt="deploy page"></img></a>
           </div>
           </div>
+          <div className={projectsStyles.projectContainer}>
+        <img src={e.node.frontmatter.image} className={projectsStyles.project}alt="project"/>
+        </div>
     </div>
         ))}
       </div>
@@ -69,4 +66,4 @@ const ProjectsPage = () => {
   )
 }
 
-export default ProjectsPage
+export default ProjectsPage;

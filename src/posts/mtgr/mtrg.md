@@ -3,8 +3,8 @@ title: 'Magic The Real Gathering'
 description: 'Events for  MTG  - Full-Stack web application'
 deployment: 'https://magictherealgathering.netlify.app/'
 source: 'https://github.com/MilenaMar/MagicTG-Client'
-sourceServer: 'https://github.com/MilenaMar/MagicTG-Server'
 tech: 'Javascript, React, NodeJS, ExpressJS, MongoDB, CSS'
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610889279/MTG_kd3flt.gif"
 ---
 
 
