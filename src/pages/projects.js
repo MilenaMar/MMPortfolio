@@ -19,9 +19,6 @@ const ProjectsPage = () => {
               tech
               image
             }
-            fields {
-              slug
-            }
           }
         }
       }
@@ -44,7 +41,7 @@ const ProjectsPage = () => {
       <h1>My Latest Projects</h1>
       <div className={projectsStyles.container}>
         {data.allMarkdownRemark.edges.map(e => (
-        <div className={projectsStyles.card} key={e.node.fields.slug}>
+        <div className={projectsStyles.card} key={e.node.frontmatter.title}>
               <h2>{e.node.frontmatter.title}</h2>
         <div className={projectsStyles.body}>
           <h5>{e.node.frontmatter.description}</h5>
