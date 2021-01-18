@@ -1,4 +1,5 @@
 import React from "react";
+import formStyles from "../styles/contactForm.module.scss"
 
 
 export default class MyForm extends React.Component {
@@ -16,7 +17,7 @@ export default class MyForm extends React.Component {
       <form
         onSubmit={this.submitForm}
         action={process.env.ENDPOINT_FORM}
-        method="POST"
+        method="POST" className={formStyles.form}
       >
         
         <label htmlFor="email">Email:</label>
