@@ -2,6 +2,7 @@ import React from "react"
 import ContactImage from "../../static/letschat.png"
 import contactStyles from "../styles/contact.module.scss"
 import Metadata from "../components/metadata"
+import MyForm from "../components/contact"
 
 const ContactPage = () => {
   return (
@@ -16,12 +17,7 @@ const ContactPage = () => {
         >
           LinkedIn
         </a>, send me and <span>email</span> or simple fill out the form below and I will get in touch with you. </p>
-        <form>
-          <label>Contact details</label>
-          <input></input>
-          <label>Message</label>
-          <textarea></textarea>
-        </form>
+        <MyForm />
       </div>
   )
 }
