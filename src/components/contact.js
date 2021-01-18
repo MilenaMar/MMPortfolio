@@ -20,9 +20,9 @@ export default class MyForm extends React.Component {
         method="POST" className={formStyles.form}
       >
         
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" />
-        <label htmlFor="message">Message:</label>
+        <label htmlFor="message">Message</label>
         <textarea type="text" name="message" id="message" />
         {status === "SUCCESS" ? <p>Thanks I will be in contact soon!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
