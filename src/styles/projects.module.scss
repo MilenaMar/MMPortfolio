@@ -65,3 +65,29 @@
     max-height: 750px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+
+  @media (max-width: 770px){
+
+    .container {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 481px){
+
+    .card {
+        max-height: 180px;
+  }
+
+  .body{
+    
+    img{
+      max-width: 20px;
+    }
+}
+
+
+
+}

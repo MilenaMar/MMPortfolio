@@ -15,10 +15,10 @@ const ContactPage = () => {
           rel="noreferrer"
         >
           LinkedIn
-        </a>, send me and <span>email</span> or simple fill out the form below and I will get in touch with you. </p>
+        </a>, by <span>email</span> or simple fill out the form below and I will get in touch with you. </p>
         <div >
-        <MyForm />
         <img src={ContactImage} alt="contact-illustration" ></img>
+        <MyForm />
         </div>
       </div>
   )

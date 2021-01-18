@@ -5,7 +5,7 @@ $light-background: rgba(242, 102, 63, 0.1);
 .form {
     display: flex;
     flex-direction: column;
-    min-width: 500px;
+    min-width: 400px;
     padding: 2rem;
 
     input , 
@@ -50,4 +50,22 @@ $light-background: rgba(242, 102, 63, 0.1);
         box-shadow: 0 0 0 2px #EDE9E6;
       
       }
+}
+
+@media (max-width: 695px){
+
+    .form{
+        max-width: 300px;
+        align-items: center;
+
+        input , 
+        textarea{
+           max-width: 300px;
+           min-width: 300px;
+        }
+
+
+    }
+    
+    
 }
