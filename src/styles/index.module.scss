@@ -70,7 +70,16 @@ $light-black:  #333231;
 
 } 
 
- 
+
+body{
+  background: white;
+}
+
+.circle{
+  max-width: 5px;
+}
+
+
 
 @media (min-width: 1281px) {
     .description{
@@ -84,7 +93,7 @@ $light-black:  #333231;
       }
     
   }
-  @media (min-width: 512px) and (max-width: 720px) {
+  @media (min-width: 481px) and (max-width: 720px) {
 
     .welcome-container{
       margin-top: 80px;
@@ -93,6 +102,46 @@ $light-black:  #333231;
     visibility: hidden;
     width: 1px;
   }
+
+  .circle{
+    max-width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    background: #F56740;
+    animation: ripple 30s infinite;
+    box-shadow: 0px 0px 1px 0px #F56740;
+  }
+  
+  .xlarge{
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: 110px;
+  }
+  
+  
+  .shade2{
+    opacity: 0.4;
+  }
+  
+  
+  @keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    75%{
+      transform: scale(1.4);
+
+    }
+    100%{
+      transform: scale(0.8);
+    }
+  }
+  
     
   }
   @media (min-width: 320px) and (max-width: 480px) {
@@ -107,6 +156,45 @@ $light-black:  #333231;
   
   .image-homepage{
     visibility: hidden;
+  }
+
+  .circle{
+    max-width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    background: #F56740;
+    animation: ripple 20s infinite;
+    box-shadow: 0px 0px 1px 0px #F56740;
+  }
+  
+  .xlarge{
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: 90px;
+  }
+  
+  
+  .shade2{
+    opacity: 0.4;
+  }
+  
+  
+  @keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    75%{
+      transform: scale(1.4);
+
+    }
+    100%{
+      transform: scale(0.8);
+    }
   }
     
   }

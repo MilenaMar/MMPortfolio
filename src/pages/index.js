@@ -22,6 +22,7 @@ return (
  <div>
   <Metadata title="Home" description="Web Developer Milena Martinez " />
   <div className={homeStyles.welcomeContainer}>
+    <div className={`${homeStyles.circle} ${homeStyles.xlarge} ${homeStyles.shade2}`}></div>
   <div className={homeStyles.description}>
   <h2 className={homeStyles.nameFont}>Milena</h2>
   <h2 className={homeStyles.nameFont}>Martinez</h2>
