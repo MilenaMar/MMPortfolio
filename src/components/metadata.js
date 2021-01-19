@@ -25,15 +25,14 @@ const Metadata = ({ title, description }) => {
      <Helmet>
      <meta name="description" content={metaDescription} /> 
       <meta name="image"  content={Thumbnail}/>
-      <meta property="og:url" content="https://www.milenamartinez.com/" />
+      <meta property="og:url" content="https://www.milenamartinez.com" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta name="author" content={data.site.siteMetadata.author}/>
       <meta property="og:image" content="https://www.milenamartinez.com/thumbnail.png" />
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:secure_url" content="https://www.milenamartinez.com/thumbnail.png" />
       <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
+      <meta property="og:image:height" content="627" />
       <meta name="twitter:image:src" content={Thumbnail} />
       <html lang="en" dir="ltr" />
       <title>{`${metaTitle} | ${title}`}</title>
