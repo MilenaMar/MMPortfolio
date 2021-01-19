@@ -6,7 +6,7 @@ module.exports = {
     description: "Milena Martinez Caceres Web Developer located in Ireland",
     author: "Milena Martinez",
     url: "https://milenamartinez.com/",
-    image: "static/meta.png"
+    image: "static/thumbnail.png"
   },
   /* Your site config here */
   plugins: [
