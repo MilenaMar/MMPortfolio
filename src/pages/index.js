@@ -20,7 +20,7 @@ const IndexPage = () => {
   `)
 return (
  <div>
-  <Metadata title="Home" description="Web Developer Milena Martinez " />
+  <Metadata title="Home" description="Web Developer Milena Martinez "  />
   <div className={homeStyles.welcomeContainer}>
     <div className={`${homeStyles.circle} ${homeStyles.xlarge} ${homeStyles.shade2}`}></div>
   <div className={homeStyles.description}>

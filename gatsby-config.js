@@ -1,13 +1,12 @@
-
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
     title: "Milena Martinez | Web Developer |",
     description: "Milena Martinez Caceres Web Developer located in Ireland",
     author: "Milena Martinez",
+    url: "https://milenamartinez.com/",
+    image: "static/meta.png"
   },
   /* Your site config here */
   plugins: [

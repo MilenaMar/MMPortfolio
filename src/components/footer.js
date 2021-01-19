@@ -17,7 +17,7 @@ const Footer = () => {
     `)
     return (
         <footer className={footerStyles.socialMenu}>
-            <p> © 2021 - All Rights reserved  <strong>{data.site.siteMetadata.author}</strong> |  Illustrations by <a href="https://icons8.com/illustrations/author/5e7e24ce01d0360013bb7479" target="_blank" rel="noreferrer">Natasha Remarchuk</a> </p>
+            <p> © 2021 - All Rights reserved  <strong>{data.site.siteMetadata.author}</strong> </p>
             <ul>
             <li>
              <a href="https://www.linkedin.com/in/milena-martinez-caceres/" 

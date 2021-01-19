@@ -11,6 +11,8 @@ const Metadata = ({ title, description }) => {
             author
             title
             description
+            url
+            image
           }
         }
       }
@@ -18,11 +20,14 @@ const Metadata = ({ title, description }) => {
   )
   const metaTitle =  data.site.siteMetadata.author
   const metaDescription = description 
+  const image = `${data.site.siteMetadata.url}${data.site.siteMetadata.image}`
   return (
-    <Helmet>
+     <Helmet>
       <title>{`${metaTitle} | ${title}`}</title>
-      <meta name="description" content={metaDescription} />
+      <meta name="description" content={metaDescription} /> 
+      <meta name="image"  content={image}/>
     </Helmet>
+    
   )
 }
 
