@@ -19,7 +19,6 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/f/mdopboyd"
         method="POST" className={formStyles.form}
       >
-        
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" />
         <label htmlFor="message">Message</label>

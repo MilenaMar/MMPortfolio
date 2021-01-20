@@ -9,18 +9,19 @@ $light-black:  #333231;
 .welcome-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     min-height: 60vh;
 
     h1{
       font-family: 'Headland One', serif;
+      
     }
 
     button{
       border: none;
       padding: 0.4em 0.4em;
       border: none;
-      border-radius: 1em;
+      border-radius: 0.5em;
       background: $button-color;
        transform-style: preserve-3d;
       transition: all 175ms cubic-bezier(0, 0, 1, 1);
@@ -70,10 +71,6 @@ $light-black:  #333231;
 
 } 
 
-
-body{
-  background: white;
-}
 
 .circle{
   max-width: 5px;

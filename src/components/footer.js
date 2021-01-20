@@ -5,6 +5,9 @@ import Github from "../../static/github.png"
 import footerStyles from "../styles/footer.module.scss"
 import resume from "../../static/resume.png"
 import myCv from "../../static/Milena Martinez CV.pdf"
+
+
+
 const Footer = () => {
     const data = useStaticQuery (graphql`
     query {

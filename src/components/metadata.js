@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import Thumbnail from '../../static/thumbnail.png'
+import Thumbnail from '../../static/thumb.png'
 
 const Metadata = ({ title, description }) => {
   const data = useStaticQuery(
@@ -12,8 +12,6 @@ const Metadata = ({ title, description }) => {
             author
             title
             description
-            url
-            image
           }
         }
       }
@@ -28,14 +26,16 @@ const Metadata = ({ title, description }) => {
       <meta property="og:url" content="https://www.milenamartinez.com" />
       <meta property="og:type" content="website" />
       <meta name="author" content={data.site.siteMetadata.author}/>
-      <meta property="og:image" content="https://www.milenamartinez.com/thumbnail.png" />
+      <meta property="og:image" content="https://www.milenamartinez.com/thumb.png" />
       <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:secure_url" content="https://www.milenamartinez.com/thumbnail.png" />
+      <meta property="og:image:secure_url" content="https://www.milenamartinez.com/thumb.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="627" />
-      <meta name="twitter:image:src" content={Thumbnail} />
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:title" content="Mlena Martinez Portfolio"/>
+      <meta name="twitter:image" content="https://www.milenamartinez.com/thumb.png"/>
       <html lang="en" dir="ltr" />
-      <title>{`${metaTitle} | ${title}`}</title>
+      <title>{(!title)? `${metaTitle}`: `${metaTitle} | ${title}`}</title>
     </Helmet>
     
   )

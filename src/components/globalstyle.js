@@ -1,5 +1,6 @@
-/* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
+import { createGlobalStyle } from 'styled-components';
 
+export const Global = createGlobalStyle`
 html {
     font-family: sans-serif;
     background-color: #ffffff;
@@ -643,4 +644,4 @@ html {
     html {
       font-size: 100%;
     }
-  }
+  }`;

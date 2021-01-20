@@ -27,7 +27,7 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
     <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="about me" /> 
     </div>
     <div className={aboutStyles.secondSection}>
-    <h1>Hi there, I am Milena</h1>
+    <h1>Hi there . . . </h1>
       <p>
         I am a Full-Stack Web Developer currently living in Ireland.</p>
         <p>I am always learning, practicing and researching new things. I believe you should
