@@ -33,6 +33,8 @@ const Metadata = ({ title, description }) => {
       <meta property="og:image:height" content="627" />
       <meta name="twitter:card" content="summary_large_image"/>
       <meta name="twitter:title" content="Mlena Martinez Portfolio"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet"/>
       <meta name="twitter:image" content="https://www.milenamartinez.com/thumb.png"/>
       <html lang="en" dir="ltr" />
       <title>{(!title)? `${metaTitle}`: `${metaTitle} | ${title}`}</title>
