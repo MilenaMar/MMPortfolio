@@ -1,5 +1,5 @@
 ---
-title: "Check-Me IN"
+title: "Check-Me In"
 description: "Travel Blog - Full-Stack web application"
 deployment: "https://check-me-in.herokuapp.com/"
 source: "https://github.com/MilenaMar/Check-Me-In"

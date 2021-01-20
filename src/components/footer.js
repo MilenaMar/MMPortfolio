@@ -4,6 +4,7 @@ import LinkedIn from "../../static/Linked.png"
 import Github from "../../static/github.png"
 import footerStyles from "../styles/footer.module.scss"
 import resume from "../../static/resume.png"
+import icons8 from "../../static/icons8.png"
 import myCv from "../../static/Milena Martinez CV.pdf"
 
 
@@ -20,7 +21,13 @@ const Footer = () => {
     `)
     return (
         <footer className={footerStyles.socialMenu}>
-            <p> © 2021 - All Rights reserved  <strong>{data.site.siteMetadata.author}</strong> </p>
+            <p> © 2021 - All Rights reserved <a
+          href="https://www.linkedin.com/in/milena-martinez-caceres-380729ab/"
+          target="_blank"
+          rel="noreferrer"
+        >
+         <strong>{data.site.siteMetadata.author}</strong>
+        </a>  </p>
             <ul>
             <li>
              <a href="https://www.linkedin.com/in/milena-martinez-caceres/" 
@@ -37,6 +44,11 @@ const Footer = () => {
             <li>
                <a href={myCv} download>
                   <img src={resume} alt ="download resume"/>
+                  </a> 
+            </li>
+            <li>
+               <a href="https://icons8.com/"  target="_blank" rel="noreferrer">
+                  <img src={icons8} alt ="illustrations source"/>
                   </a> 
             </li>
         </ul>

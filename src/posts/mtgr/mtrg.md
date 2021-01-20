@@ -1,5 +1,5 @@
 ---
-title: 'Magic The Real Gathering'
+title: 'Magic TRG'
 description: 'Events for  MTG  - Full-Stack web application'
 deployment: 'https://magictherealgathering.netlify.app/'
 source: 'https://github.com/MilenaMar/MagicTG-Client'

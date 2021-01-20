@@ -29,15 +29,15 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
     <div className={aboutStyles.secondSection}>
     <h1>Hi there . . . </h1>
       <p>
-        I am a Full-Stack Web Developer currently living in Ireland.</p>
-        <p>I am always learning, practicing and researching new things. I believe you should
+        I am a Full-Stack Web Developer currently living in Ireland.<br/>
+        I am always learning, practicing and researching new things. I believe you should
     never go to bed without learning something new.
        The two things I love the most besides coding are my dog and Colombian coffee.</p>
       <p> If you want to work wit me go ahead and <Link to="/contact">Contact me.</Link>  <br/> 
-        <br/> You can also can find me on <a href="https://www.linkedin.com/in/milena-martinez-caceres/" 
+        You can also can find me on <a href="https://www.linkedin.com/in/milena-martinez-caceres/" 
              target="_blank" rel="noreferrer"> 
              LinkedIn
-             </a> and check some of my projects on my <a href="https://github.com/MilenaMar"
+             </a> and check other projects on my <a href="https://github.com/MilenaMar"
                  target="_blank" rel="noreferrer">GitHub</a> page.
           </p>   
           <Skills/> 

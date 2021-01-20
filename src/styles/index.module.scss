@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
+
 
 $button-color :  #F56740;
 $light-black:  #333231;
@@ -11,11 +11,6 @@ $light-black:  #333231;
     align-items: center;
     justify-content: space-evenly;
     min-height: 60vh;
-
-    h1{
-      font-family: 'Headland One', serif;
-      
-    }
 
     button{
       border: none;

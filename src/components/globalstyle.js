@@ -2,7 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
 html {
-    font-family: sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
+    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     font-size: 100%;
     -ms-text-size-adjust: 100%;
@@ -236,8 +238,8 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-weight: bold;
     text-rendering: optimizeLegibility;
+    font-family: 'Headland One', serif;
     font-size: 2.25rem;
     line-height: 1.1;
   }
@@ -251,9 +253,8 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
+    font-family: 'Headland One', serif;
     text-rendering: optimizeLegibility;
     font-size: 1.62671rem;
     line-height: 1.1;
@@ -268,8 +269,6 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
@@ -285,8 +284,6 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
@@ -302,8 +299,6 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.85028rem;
@@ -319,8 +314,6 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.78405rem;
@@ -596,8 +589,6 @@ html {
   code {
     background-color: hsla(0, 0%, 0%, 0.04);
     border-radius: 3px;
-    font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-      "Liberation Mono", Menlo, Courier, monospace;
     padding: 0;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
