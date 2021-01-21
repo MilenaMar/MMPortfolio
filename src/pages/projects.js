@@ -31,10 +31,7 @@ const ProjectsPage = () => {
    }
     }
   `)
- // <Img
- // fluid={data.placeholderImage.childImageSharp.fluid}
- // alt="lady projects"
- //style={{display:"block", margin:"0 auto"}}/>
+
   return (
     <div>
     <Metadata title="Projects" description="Page with all the projects I worked on"/>

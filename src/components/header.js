@@ -2,26 +2,17 @@ import { Link } from "gatsby"
 import React from "react"
 import headerStyles from "../styles/header.module.scss"
 import Logo from "../../static/black-logo.png"
-import Menu from "./menu.js"
+import BarMenu from "./barmenu"
 
 class Header extends React.Component {
-  toggleMenu() {
-    this.childMenu.open()
-  }
+  
   render (){
   return (
     <header className={headerStyles.header}>
     <Link to="/" className={headerStyles.personalLogo}>
        <img src={Logo} alt="web-site logo" className={headerStyles.logo}/>
       </Link>
-     <>
-        <button onClick={() => this.toggleMenu()} className={headerStyles.buttonMenu} aria-label="movile menu">
-          <div></div>
-          <div></div>
-          <div></div>
-        </button>
-        <Menu ref={el => (this.childMenu = el)} />
-      </>  
+       <BarMenu />
       <nav>
         <ul className={headerStyles.navList}>
           <li>

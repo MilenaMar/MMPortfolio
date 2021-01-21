@@ -1,10 +1,10 @@
 ---
 title: 'Campgrounds'
 description: 'Camping-Sites reviews - Full-stack application'
-deployment: 'https://magictherealgathering.netlify.app/'
+deployment: ''
 source: 'https://github.com/MilenaMar/Campgrounds'
 tech: 'Javascript, NodeJs, EJS, ExpressJS, MongoDB, SCSS'
-image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610902288/game-min_jf5tmh.gif"
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1611245167/WIP_ivecuu.png"
 ---
 
 

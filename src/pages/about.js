@@ -33,7 +33,7 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
         I am always learning, practicing and researching new things. I believe you should
     never go to bed without learning something new.
        The two things I love the most besides coding are my dog and Colombian coffee.</p>
-      <p> If you want to work wit me go ahead and <Link to="/contact">Contact me.</Link>  <br/> 
+      <p> If you want to work wit me go ahead and <Link to="/contact">Contact me</Link>.  <br/> 
         You can also can find me on <a href="https://www.linkedin.com/in/milena-martinez-caceres/" 
              target="_blank" rel="noreferrer"> 
              LinkedIn
@@ -42,7 +42,6 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
           </p>   
           <Skills/> 
       </div> 
-      
       </div>  
       </div>
     

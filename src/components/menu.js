@@ -2,15 +2,13 @@ import React, { useImperativeHandle, useRef } from "react"
 import { Link } from "gatsby"
 import styles from "../styles/menu.module.scss"
 
+
 class Menu extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       open: false,
     }
-  }
-  close() {
-    this.setState({ open: !this.state.open })
   }
 
   open() {
@@ -23,9 +21,10 @@ class Menu extends React.Component {
          role = "button"
          tabIndex="0"
         className={`${styles.menu} ${this.state.open ? `${styles.open}` : ""}`}
-        onClick={() => this.close()}
-        onKeyDown={() => this.close()}
+        onClick={() => this.open()}
+        onKeyDown={() => this.open()}
       >
+      
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
         <Link to="/projects">Projects</Link>

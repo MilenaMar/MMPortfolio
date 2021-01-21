@@ -38,8 +38,9 @@
   .about-section {
     flex-direction: column;
     .first-section {
-      min-width: 250px;
-      max-width: 350px;
+      min-width: 5px;
+      max-width: 5px;
+      visibility: hidden;
     }
   }
 }

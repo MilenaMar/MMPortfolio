@@ -38,7 +38,6 @@ class Transition extends React.PureComponent {
                     }
                 </ReactTransition>
             </TransitionGroup>
-
         )
     }
 }
