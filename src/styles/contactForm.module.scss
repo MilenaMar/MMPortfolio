@@ -5,14 +5,18 @@ $light-background: rgba(242, 102, 63, 0.5);
 .form {
     display: flex;
     flex-direction: column;
-    min-width: 400px;
+    min-width: 500px;
     padding: 2rem;
+
+    label {
+font-size: 1.3rem;
+    }
 
     input , 
     textarea{
         border: solid $light-background;
         border-radius: 10px;
-        margin: 0.2rem;
+        margin: 0.5rem;
     }
 
     textarea:focus, input:focus, button:focus{
@@ -21,13 +25,13 @@ $light-background: rgba(242, 102, 63, 0.5);
 
     textarea {
         min-height: 200px;
-        max-height: 200px;
     }
 
     button{
         
         max-width: 100px;
         background-color: $light-black;
+        margin-top: 0.5em;
         border: none;
         padding: 0.5em 0.5em;
         font-size: 1.2rem;

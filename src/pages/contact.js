@@ -7,13 +7,13 @@ import MyForm from "../components/contact"
 const ContactFormStyle = styled.div`
 {
     display: flex;
-    max-width: 700px;
     margin:0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     div{
+      padding-top: 1rem;
         display: flex;
         align-items: center;
     }
@@ -21,7 +21,7 @@ const ContactFormStyle = styled.div`
     img{
 
         max-width: 100%;
-         height: 300px;
+         height: 400px;
     } 
 
     a{
@@ -61,7 +61,7 @@ const ContactPage = () => {
           rel="noreferrer"
         >
           LinkedIn
-        </a>, <a target="_blank" rel="noopener noreferrer"  referrerpolicy="no-referrer" href="mailto:milykar13@icloud.com">email</a> or simple fill out the form below and I will get in touch with you. </p>
+        </a>, <a target="_blank" rel="noreferrer"  href="mailto:milykar13@icloud.com">email</a> or simple fill out the form below and I will get in touch with you. </p>
         <div >
         <img src={ContactImage} alt="contact-illustration" ></img>
         <MyForm />
