@@ -1,6 +1,6 @@
 ---
 title: 'Totoro the Game'
-description: 'Game Builded with P5 - Front-End application'
+description: 'Game Built with P5 - Front-End application'
 deployment: 'https://milenamar.github.io/Totoro/'
 source: 'https://github.com/MilenaMar/Totoro'
 tech: 'Javascript, P5.js, HTML, CSS'

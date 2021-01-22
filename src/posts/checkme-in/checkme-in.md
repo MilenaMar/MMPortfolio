@@ -1,6 +1,6 @@
 ---
 title: "Check-Me In"
-description: "Travel Blog - Full-Stack web application"
+description: "Travel Blog - Full-Stack  application"
 deployment: "https://check-me-in.herokuapp.com/"
 source: "https://github.com/MilenaMar/Check-Me-In"
 tech: "Javascript, NodeJs, HBS, ExpressJS, MongoDB, CSS"
