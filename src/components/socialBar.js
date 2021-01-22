@@ -1,6 +1,5 @@
 import React from 'react';
 import resume from "../../static/resume.png"
-import icons8 from "../../static/icons8.png"
 import myCv from "../../static/Milena Martinez CV.pdf"
 import LinkedIn from "../../static/Linked.png"
 import Github from "../../static/github.png"
