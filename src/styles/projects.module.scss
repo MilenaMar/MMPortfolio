@@ -12,7 +12,7 @@
     max-height: 202px;
     overflow: hidden;
     border-radius: 5px; 
-    transition: all .6s ease-in-out;
+    transition: all .8s ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
     
@@ -42,12 +42,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            overflow: hidden;
+            
         }
          p{
              max-width: 220px;
-                font-size: smaller;
-                text-align: justify;
-                min-height: 50px;
+                font-size:1.2rem;
+                text-align:left;
+                min-height: 60px;
+                
          }
         
         img{

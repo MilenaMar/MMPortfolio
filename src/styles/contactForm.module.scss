@@ -1,4 +1,4 @@
-$button-color :  #F56740;
+$button-color :   rgba(244,103,64,0.8);
 $light-black:  #333231;
 $light-background: rgba(242, 102, 63, 0.5);
 
@@ -27,9 +27,10 @@ $light-background: rgba(242, 102, 63, 0.5);
     button{
         
         max-width: 100px;
-        background-color: $button-color;
+        background-color: $light-black;
         border: none;
-        padding: 0.4em 0.4em;
+        padding: 0.5em 0.5em;
+        font-size: 1.2rem;
         border: 2px solid #ffffff;
         border-radius: 0.5em;
         color: white;
@@ -39,7 +40,7 @@ $light-background: rgba(242, 102, 63, 0.5);
 
 
     button:hover {
-        background: $light-black;
+        background: $button-color;
         transform: translate(0, 0.375em);
         cursor: pointer;
       }

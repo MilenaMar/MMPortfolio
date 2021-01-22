@@ -1,3 +1,4 @@
+$button-color :  rgba(244,103,64,0.8);
 .about-section > * {
   flex-grow: 1;
 }
@@ -5,6 +6,7 @@
 .about-section {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   .first-section {
     min-width: 400px;
@@ -23,7 +25,7 @@
 
     a {
       display: inline-block;
-      color: #f46740;
+      color: $button-color;
       transition: all 0.2s ease-in-out;
     }
 

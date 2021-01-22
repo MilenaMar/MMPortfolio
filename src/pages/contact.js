@@ -25,7 +25,7 @@ const ContactFormStyle = styled.div`
     } 
 
     a{
-      color:#f46740;
+      color:rgba(244,103,64,0.8);;
     }
 }
 

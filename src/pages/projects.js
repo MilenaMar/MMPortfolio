@@ -35,7 +35,7 @@ const ProjectsPage = () => {
   return (
     <div>
     <Metadata title="Projects" description="Page with all the projects I worked on"/>
-      <h1>My Latest Projects</h1>
+      <h1>My Latest Projects...</h1>
       <div className={projectsStyles.container}>
         {data.allMarkdownRemark.edges.map(e => (
         <div className={projectsStyles.card} key={e.node.frontmatter.title}>

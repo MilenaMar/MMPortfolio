@@ -24,8 +24,7 @@ return (
   <div className={homeStyles.welcomeContainer}>
     <div className={`${homeStyles.circle} ${homeStyles.xlarge} ${homeStyles.shade2}`}></div>
   <div className={homeStyles.description}>
-  <h2 className={homeStyles.nameFont}>Milena</h2>
-  <h2 className={homeStyles.nameFont}>Martinez</h2>
+  <h1 className={homeStyles.nameFont}>Milena <br/> Martinez</h1>
   <p className={homeStyles.aboutMeFont}>Full-Stack Developer. <br/>Always amazed to see how technology can impact people’s life.
 </p>
 <button><Link to="/contact">Work together</Link></button> 

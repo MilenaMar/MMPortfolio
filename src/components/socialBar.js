@@ -28,11 +28,6 @@ const Social = () => {
                   <img src={resume} alt ="download resume"/>
                   </a> 
             </li>
-            <li>
-               <a href="https://icons8.com/"  target="_blank" rel="noreferrer">
-                  <img src={icons8} alt ="illustrations source"/>
-                  </a> 
-            </li>
         </ul>
         </>
     )

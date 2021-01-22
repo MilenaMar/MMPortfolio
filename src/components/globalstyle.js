@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
 html {
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-  @import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
-    font-family: 'Roboto', sans-serif;
+  
+
+  font-family: 'Asap', sans-serif;
     background-color: #ffffff;
     font-size: 100%;
     -ms-text-size-adjust: 100%;
@@ -102,7 +102,6 @@ html {
   kbd,
   pre,
   samp {
-    font-family: monospace, monospace;
     font-size: 1em;
   }
   figure {
@@ -193,7 +192,7 @@ html {
     font: inherit;
   }
   html {
-    font: 112.5%/1.45em georgia, serif;
+    font: 112.5%/1.45em;
     box-sizing: border-box;
     overflow-y: scroll;
   }
@@ -208,7 +207,6 @@ html {
   }
   body {
     color: hsla(0, 0%, 0%, 0.8);
-    font-family: sans-serif;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
@@ -239,8 +237,7 @@ html {
     margin-bottom: 1.45rem;
     color: inherit;
     text-rendering: optimizeLegibility;
-    font-family: 'Headland One', serif;
-    font-size: 2.25rem;
+    font-size: 4rem;
     line-height: 1.1;
   }
   h2 {
@@ -254,9 +251,8 @@ html {
     margin-bottom: 1.45rem;
     color: inherit;
     font-weight: bold;
-    font-family: 'Headland One', serif;
     text-rendering: optimizeLegibility;
-    font-size: 1.62671rem;
+    font-size: 2rem;
     line-height: 1.1;
   }
   h3 {
@@ -301,7 +297,7 @@ html {
     color: inherit;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 0.85028rem;
+    font-size: 1rem;
     line-height: 1.1;
   }
   h6 {
@@ -381,6 +377,7 @@ html {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
+    font-size: 1.5rem;
     margin-bottom: 1.45rem;
   }
   figure {
