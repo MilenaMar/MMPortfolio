@@ -8,7 +8,7 @@ module.exports = {
     url: "https://milenamartinez.com/",
     image: "static/thumb.png"
   },
-  /* Your site config here */
+
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-transformer-sharp",

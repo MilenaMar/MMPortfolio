@@ -1,10 +1,12 @@
 ---
 title: "Check-Me In"
+number: "2"
 description: "Travel Blog - Full-Stack  application"
 deployment: "https://check-me-in.herokuapp.com/"
 source: "https://github.com/MilenaMar/Check-Me-In"
 tech: "Javascript, NodeJs, HBS, ExpressJS, MongoDB, CSS"
-image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610888427/CMIN_bzgtg2.gif"
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1611402885/check_bt9jck.png"
+gif: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610888427/CMIN_bzgtg2.gif"
 ---
 
 

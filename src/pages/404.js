@@ -4,27 +4,28 @@ import Img from "gatsby-image"
 import styled from 'styled-components';
 
 const ErrorStyle = styled.div`
-
- > * {
+{
+  > * {
     flex-grow: 1;
   }
-{
   display: flex;
   justify-content:center;
   aling-items:center;
 
 
- .errroImage{
+ div:first-child {
    max-width:500px;
-   max-height:500px
+   max-height:500px;
+   margin:2rem;
  }
 
-.errormessage{
+div:nth-child(2) {
    max-width:300px;
 
    button {
       border: none;
-      padding: 0.4em 0.4em;
+      font-size:1.2rem;
+      padding: 0.8em;
       border: none;
       border-radius: 0.5em;
       background: #333333;
@@ -59,11 +60,12 @@ placeholderImage: file(relativePath: { eq: "404.png" }) {
 `)
 return (
     <ErrorStyle>
-    
+    <div>
         <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="lady coder" className="errroImage"
-       />   <div className="errormessage">
+        alt="lady coder" 
+       /> </div>
+         <div className="error-message">
          <h1>Oops! ....</h1>
          <p> Looks like the Page  you are looking for can not be found!</p>
          <p><strong>Error code: 404</strong></p>

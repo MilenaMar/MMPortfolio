@@ -1,10 +1,12 @@
 ---
 title: 'Totoro the Game'
+number: "3"
 description: 'Game Built with P5 - Front-End application'
 deployment: 'https://milenamar.github.io/Totoro/'
 source: 'https://github.com/MilenaMar/Totoro'
 tech: 'Javascript, P5.js, HTML, CSS'
-image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610902288/game-min_jf5tmh.gif"
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1611402795/totoro_nfd9ra.png"
+gif: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610902288/game-min_jf5tmh.gif"
 ---
 
 
