@@ -74,7 +74,7 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
     <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="about me" /> 
     </div>
     <div className="about-me">
-    <h1>Hi there . . . </h1>
+    <h1>Hi there... </h1>
       <p>
         I am a Full-Stack Web Developer currently living in Ireland.<br/>
          Experienced with the MERN stack ( MongoDb, Express, React, Node), at the moment I am developing projects with Gatsby and  Typescript. <br/>

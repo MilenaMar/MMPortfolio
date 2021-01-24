@@ -628,8 +628,24 @@ html {
       background: #555; 
     }
 
-  @media only screen and (max-width: 480px) {
-    html {
-      font-size: 100%;
+
+  
+  @media (max-width:454px){
+    h1 {
+      font-size:3rem;
+      text-align:center;
     }
-  }`;
+
+    p{
+      font-size:1rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  `;
+
+ 

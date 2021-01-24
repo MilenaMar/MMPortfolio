@@ -142,7 +142,12 @@ align-items: center;
 div:nth-child(2) {
   h1{
     font-size:4.5rem;
+    text-align:justify;
   } 
+
+  p {
+    font-size:1.5rem;
+  }
 }
 
 div:last-child {

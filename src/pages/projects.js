@@ -44,7 +44,6 @@ const ProjectStyles = styled.div`
       justify-content: space-between;
       align-items: center;
       p {
-        font-size: 1.1rem;
         height: 60px;
       }
     }

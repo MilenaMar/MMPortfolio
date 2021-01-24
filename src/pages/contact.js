@@ -13,7 +13,7 @@ const ContactStyle = styled.div`
     align-items: center;
 
     div{
-      padding-top: 1rem;
+         padding-top: 1rem;
         display: flex;
         align-items: center;
     }
@@ -36,12 +36,12 @@ const ContactStyle = styled.div`
         overflow: hidden;
     
         div{
-            height:400px;
+            flex-direction:column
         }
     
         img{
-          min-width: 2px;
-          max-width: 2px;
+          max-width: 0.5px;
+          height:0.5px;
           visibility: hidden;
         } 
     }    
