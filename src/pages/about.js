@@ -76,7 +76,7 @@ placeholderImage: file(relativePath: { eq: "me.png" }) {
     <div className="about-me">
     <h1>Hi there... </h1>
       <p>
-        I am a Full-Stack Web Developer currently living in Ireland.<br/>
+        I am a Front-end developer currently living in Ireland.<br/>
          Experienced with the MERN stack ( MongoDb, Express, React, Node), at the moment I am developing projects with Gatsby and  Typescript. <br/>
         <br/> I am always learning, practicing and researching new things. I believe you should
     never go to bed without learning something new.

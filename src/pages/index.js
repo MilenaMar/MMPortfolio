@@ -216,7 +216,7 @@ return (
   <div className="circle xlarge shade2"></div>
   <div>
   <h1>Milena <br/> Martinez</h1>
-  <p>Full-Stack Developer. <br/>Always amazed to see how technology can impact people’s life.
+  <p>Front-End Developer. <br/>Always amazed to see how technology can impact people’s life.
 </p>
 <Link to="/contact"><button>Work together</button> </Link>
   </div>

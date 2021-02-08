@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: "Milena Martinez | Web Developer |",
-    description: "Milena Martinez Caceres Web Developer located in Ireland",
+    description: "Milena Martinez Caceres Front-End Developer",
     author: "Milena Martinez",
     url: "https://milenamartinez.com/",
     image: "static/thumb.png"
