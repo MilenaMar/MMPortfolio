@@ -10,12 +10,7 @@ gif: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610888427/CMIN_bzgtg2.
 ---
 
 
-Full stack JavaScript application built using Express, Mongoose, MongoDB and Handlebars, MongoDB Atlas and the
-SaaS technology, Cloudinary.
-A community-blog where people can share their experiences traveling around the globe
-No Rules! Be Nice to others, share your experience let us know what you think about the places you visited and enjoy a daily trip reading about the amazing experiences that others like you had while visiting new places.
-Is everything about learn and discover
+A community-blog where people can share their experiences traveling around the globe, Check-Me In was my first full stack application, I built this application as my second project for a web development bootcamp. other technologies included on the project are Cloudinary, Mongo Atlas, Geolocation REST API, Slugify
 
-## URL
 
-https://check-me-in.herokuapp.com/
+

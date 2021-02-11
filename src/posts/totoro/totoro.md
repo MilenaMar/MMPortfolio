@@ -1,28 +1,16 @@
 ---
 title: 'Totoro the Game'
-number: "3"
+number: "4"
 description: 'Game Built with P5 - Front-End application'
 deployment: 'https://milenamar.github.io/Totoro/'
 source: 'https://github.com/MilenaMar/Totoro'
 tech: 'Javascript, P5.js, HTML, CSS'
-image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1611402795/totoro_nfd9ra.png"
+image: "https://res.cloudinary.com/dwttlckdr/image/upload/v1613049353/totoro_i1ccyu.png"
 gif: "https://res.cloudinary.com/dwttlckdr/image/upload/v1610902288/game-min_jf5tmh.gif"
 ---
 
 
-Game developed during the third week of the Ironhack Bootcamp for Web Development.
-
-
-Javascript, P5 Library, HTML, DOM Manipulation and CSS.
-
-
-
-Game built using JavaScript Object-Oriented Programming, Collision checks, Frame Counts, speeds and
-timers.
-
-
-Studio Ghibli Movies are simple the best!, and My Neighbour Totoro is my personal favorite.
-Why not bring together the two things that I love! Coding & Totoro.
+Game built during the third week of the Ironhack Bootcamp for Web Development,  built using JavaScript Object-Oriented Programming, Collision checks, Frame Counts, speeds and timers.
 
 
 

@@ -19,12 +19,12 @@ const ProjectStyles = styled.div`
       margin: 1rem;
       padding: 1rem;
       max-width: 350px;
-      max-height: 600px;
+      min-height: 500px;
       border-radius: 5px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
       .card-header {
-        height: 330px;
+        height: 260px;
         padding: 0;
       }
       h2 {
@@ -47,7 +47,7 @@ const ProjectStyles = styled.div`
         height: 60px;
       }
     }
-
+  
     .project-information {
       display: flex;
       max-height: 50px;
@@ -130,6 +130,7 @@ const ProjectsPage = () => {
       ) {
         edges {
           node {
+            html
             frontmatter {
               description
               title
