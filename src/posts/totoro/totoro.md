@@ -1,6 +1,6 @@
 ---
 title: 'Totoro the Game'
-number: "4"
+number: "5"
 description: 'Game Built with P5 - Front-End application'
 deployment: 'https://milenamar.github.io/Totoro/'
 source: 'https://github.com/MilenaMar/Totoro'
